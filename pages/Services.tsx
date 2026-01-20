@@ -124,7 +124,7 @@ const Services: React.FC = () => {
             </div>
             <div className="order-1 lg:order-2 rounded-3xl overflow-hidden shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1503387762-592dee58c460?q=80&w=2070&auto=format&fit=crop" 
+                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop" 
                 alt="Civil Work" 
                 className="w-full aspect-video lg:aspect-square object-cover"
               />

@@ -1,20 +1,39 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# M/s Miles Electro Technologies
 
-# Run and deploy your AI Studio app
+## Engineering Solutions for Electrical, HVAC & Civil Projects
 
-This contains everything you need to run your app locally.
+Miles Electro Technologies is a multi-disciplinary engineering service provider delivering comprehensive Electrical, HVAC, and Civil Engineering solutions for residential, commercial, and industrial projects.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1sX09r_3TCXKJYdndbfR_RmSyDygDvbM6
+### About Us
+
+With a focus on **quality, safety, and energy efficiency**, we provide end-to-end engineering services that transform your vision into reality. Our team of expert engineers is committed to excellence in every project.
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```
+   npm install
+   ```
+
+2. Run the app:
+   ```
+   npm run dev
+   ```
+
+3. Open your browser and navigate to `http://localhost:5173`
+
+## Features
+
+- **Electrical Services**: Complete power distribution, wiring, panel installations
+- **HVAC Systems**: Design, installation, and maintenance of climate control systems
+- **Civil Engineering**: Construction, interiors, and renovation solutions
+- **Professional Team**: Expert engineers with years of industry experience
+- **Quality Assurance**: Commitment to excellence and safety standards
+
+## Contact Us
+
+**Phone:** 9704483322  
+**Email:** MilesElectroTechnologies@gmail.com  
+**Address:** 49-81/1, Cherukupally colony, Chintal, Hyd-500055

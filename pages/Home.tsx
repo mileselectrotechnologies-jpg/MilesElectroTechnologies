@@ -17,8 +17,11 @@ const Home: React.FC = () => {
           <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/70 to-transparent"></div>
         </div>
         
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white w-full pt-8">
           <div className="max-w-2xl space-y-6">
+            <div className="inline-block bg-white/10 backdrop-blur-md px-4 py-2 rounded-full text-sm font-semibold mb-6">
+              Engineering Excellence
+            </div>
             <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
               Complete Electrical, HVAC & Civil Engineering <span className="text-secondary">Under One Roof</span>
             </h1>
@@ -32,6 +35,30 @@ const Home: React.FC = () => {
               <Link to="/services" className="bg-white/10 backdrop-blur-md text-white border border-white/30 px-8 py-4 rounded-lg font-bold hover:bg-white/20 transition-all">
                 Explore Services
               </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Company Representation Section */}
+      <section className="bg-gradient-to-r from-primary to-primary/80 text-white py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="text-center">
+              <div className="text-3xl font-bold mb-2">Multi-Disciplinary</div>
+              <p className="text-blue-100">Electrical, HVAC & Civil Solutions</p>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold mb-2">Professional</div>
+              <p className="text-blue-100">Expert Team with Industry Experience</p>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold mb-2">Reliable</div>
+              <p className="text-blue-100">Trusted by Residential & Commercial Clients</p>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold mb-2">Quality-Focused</div>
+              <p className="text-blue-100">Safety & Excellence in Every Project</p>
             </div>
           </div>
         </div>
@@ -106,7 +133,7 @@ const Home: React.FC = () => {
               title="Civil" 
               icon={<Building className="w-12 h-12" />} 
               desc="Expert construction, interiors, and renovation for every space." 
-              image="https://images.unsplash.com/photo-1503387762-592dee58c460?q=80&w=2070&auto=format&fit=crop"
+              image="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop"
             />
           </div>
           
