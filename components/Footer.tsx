@@ -9,7 +9,13 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
         {/* Company Info */}
         <div className="space-y-6">
-          <Logo className="h-10 w-auto invert brightness-0 filter" />
+          <div className="flex items-center gap-3">
+            <img 
+              src="/Logo.png" 
+              alt="Miles Electro Technologies" 
+              className="h-10 w-auto brightness-200 filter"
+            />
+          </div>
           <p className="text-blue-100 text-sm leading-relaxed">
             Multi-disciplinary engineering service provider delivering top-tier Electrical, HVAC, and Civil solutions with a focus on quality, safety, and energy efficiency.
           </p>

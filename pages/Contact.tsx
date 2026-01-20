@@ -172,15 +172,17 @@ const Contact: React.FC = () => {
 
 const ContactInfoItem: React.FC<{icon: React.ReactNode, label: string, value: string, href?: string}> = ({ icon, label, value, href }) => (
   <div className="flex gap-4 group">
-    <div className="p-3 bg-white/10 rounded-xl group-hover:bg-secondary transition-colors shrink-0">
-      {icon}
+    <div className="p-3 bg-white/10 rounded-xl group-hover:bg-white/20 transition-colors shrink-0 flex items-center justify-center">
+      <div className="text-secondary group-hover:text-white transition-colors">
+        {icon}
+      </div>
     </div>
-    <div>
+    <div className="flex-1 min-w-0">
       <p className="text-blue-100 text-xs font-semibold uppercase tracking-wider mb-1">{label}</p>
       {href ? (
-        <a href={href} className="text-white font-bold text-lg hover:text-secondary transition-colors">{value}</a>
+        <a href={href} className="text-white font-bold text-lg hover:text-secondary transition-colors break-words">{value}</a>
       ) : (
-        <p className="text-white font-bold text-lg">{value}</p>
+        <p className="text-white font-bold text-lg break-words">{value}</p>
       )}
     </div>
   </div>
